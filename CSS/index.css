@@ -1,0 +1,193 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+/*overwrite*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/*Set up gif background*/
+body {
+    background-image: url(https://media1.giphy.com/media/iu7HJkSD1Id5FXlGry/giphy.gif?cid=ecf05e47gxcrinzkcpepcxysbpiwofj2z41p5wtkn96xmq0o&rid=giphy.gif&ct=g);
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat repeat;
+    background-size:cover;
+}
+
+li,a,i{
+    font-family:'Cormorant', serif;
+    font-weight: 400;
+    font-size:16px; 
+    color: #fff;
+    text-decoration: none;
+}
+
+/*______________everything inside header starts here________________*/
+
+header{
+    background:#3D3D3d;
+    opacity: 0.7;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 10%; 
+}
+
+/*logo*/
+.logo{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+/*nav bar*/
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+/*social media icon*/
+.social_icon i{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+/*__________________________About Me Section_______________________________*/
+/*main set up*/
+.about{
+    width:100%;
+    padding:100px 0px;
+}
+
+.AboutMe{
+    width: 1030px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about img{
+    height: 280px;
+    width: 420px;
+}
+
+.about_text{
+    width:500px;
+    color:#fff
+}
+
+/*individual element set up*/
+.about_text h1{
+    font-size: 28px; 
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about_text h5{
+    font-size: 16px; 
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.about_text p{
+    font-size: 22px; 
+    margin-bottom: 10px;
+    font-weight:300;
+}
+
+/*__________________________Project Overview_______________________________*/
+/*main set up*/
+.project{
+    width:100%;
+    padding:30px 0px;
+}
+
+.ProjectOverview{
+    width: 1030px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+/*individual elements set up*/
+.project_num{
+    list-style: none;
+}
+
+.project_num li{
+    display:inline-block;
+    padding:0px 74px;
+}
+
+.project_num li a{
+    transition: all 0.3s ease 0s;
+}
+.project_num li a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:40px;
+    height: 600px;
+    width: 1030px;
+}
+
+/*__________________________Footer_______________________________*/
+footer{
+    background:#3D3D3d;
+    opacity: 0.7;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 10%; 
+}
+
+/*footer text*/
+.footer_links{
+    list-style: none;
+}
+
+.footer_links li{
+    display: inline-block;
+    padding: 20px 89px;}
+
+.footer_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.footer_links li a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.footer p{
+    text-align: center;
+    color:#fff;
+    font-size: 14px;
+    padding:10px;
+}
+
+/*_________________________This is the end of homepage_____________________*/
